@@ -19,6 +19,8 @@
 		940FE5AE1B8D8F7C006ED48A /* DestinationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940FE5AC1B8D8F7C006ED48A /* DestinationsViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		940FE5B21B9032A0006ED48A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940FE5B01B9032A0006ED48A /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
 		940FE5B31B9032A0006ED48A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940FE5B11B9032A0006ED48A /* MapViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		940FE5B71B9184A6006ED48A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940FE5B51B9184A6006ED48A /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		940FE5B81B9184A6006ED48A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940FE5B61B9184A6006ED48A /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		940FE5AF1B9032A0006ED48A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		940FE5B01B9032A0006ED48A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		940FE5B11B9032A0006ED48A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		940FE5B41B9184A6006ED48A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		940FE5B51B9184A6006ED48A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		940FE5B61B9184A6006ED48A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +131,9 @@
 				940FE5AF1B9032A0006ED48A /* MapViewController.h */,
 				940FE5B01B9032A0006ED48A /* MapViewController.m */,
 				940FE5B11B9032A0006ED48A /* MapViewController.xib */,
+				940FE5B41B9184A6006ED48A /* MainViewController.h */,
+				940FE5B51B9184A6006ED48A /* MainViewController.m */,
+				940FE5B61B9184A6006ED48A /* MainViewController.xib */,
 			);
 			path = "Quickest Route";
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FE5871B8AEBC4006ED48A /* LaunchScreen.storyboard in Resources */,
+				940FE5B81B9184A6006ED48A /* MainViewController.xib in Resources */,
 				940FE5841B8AEBC4006ED48A /* Assets.xcassets in Resources */,
 				940FE5821B8AEBC4006ED48A /* Main.storyboard in Resources */,
 				940FE5B31B9032A0006ED48A /* MapViewController.xib in Resources */,
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FE57F1B8AEBC4006ED48A /* ViewController.m in Sources */,
+				940FE5B71B9184A6006ED48A /* MainViewController.m in Sources */,
 				940FE57C1B8AEBC4006ED48A /* AppDelegate.m in Sources */,
 				940FE5B21B9032A0006ED48A /* MapViewController.m in Sources */,
 				940FE5791B8AEBC4006ED48A /* main.m in Sources */,
