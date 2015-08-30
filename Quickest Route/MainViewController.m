@@ -22,9 +22,26 @@
 
 @implementation MainViewController
 
+- (instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if(self) {
+        self.destinationsViewController = [[DestinationsViewController alloc] initWithNibName:@"DestinationsViewController" bundle:[NSBundle mainBundle]];
+        self.destinationsViewController.tabBarItem.title = @"Destinations";
+        
+        self.mapViewController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:[NSBundle mainBundle]];
+        self.mapViewController.tabBarItem.title = @"Map";
+        
+        
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
