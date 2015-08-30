@@ -8,7 +8,15 @@
 
 #import "MainViewController.h"
 
+#import "DestinationsViewController.h"
+#import "MapViewController.h"
+
 @interface MainViewController ()
+
+@property (strong, nonatomic) DestinationsViewController *destinationsViewController;
+@property (strong, nonatomic) MapViewController *mapViewController;
+
+@property (strong, nonatomic) UITabBarController *tabBarController;
 
 @end
 
