@@ -33,7 +33,10 @@
         self.mapViewController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:[NSBundle mainBundle]];
         self.mapViewController.tabBarItem.title = @"Map";
         
+        NSArray *tabs = [NSArray arrayWithObjects:self.destinationsViewController, self.mapViewController, nil];
         
+        self.tabBarController = [[UITabBarController alloc] init];
+        self.tabBarController.viewControllers = tabs;
     }
     
     return self;
@@ -41,6 +44,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view addSubview:self.tabBarController.view];
     
 }
 
